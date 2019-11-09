@@ -6,7 +6,7 @@ int main()
 {
     int num;
     int input, sum=0, avg;
-    cout << "How many numbers? :";
+    cout << "How many numbers? : ";
     cin >> num; 
     for(int i = 1; i <= num; i++){
         cout << "Enter Number: ";
