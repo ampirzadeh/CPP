@@ -8,6 +8,6 @@ int main(){
   cin >> myString;
   for (std::size_t i = 0; i < myString.size(); ++i)
   {
-      cout << bitset<8>(myString.c_str()[i]) << " ";
+      cout << bitset<8>(myString.c_str()[i]) << endl;
   }
 }
