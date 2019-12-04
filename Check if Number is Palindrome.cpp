@@ -4,7 +4,7 @@
     {
          int n, num, digit, rev = 0;
          cout << "Enter a positive number: ";
-         cin >> nun;
+         cin >> num;
          n = num;
          do
          {
