@@ -1,11 +1,19 @@
 #include <iostream>
 using namespace std;
-int x,y;
+int x,y,m;
 int main() {
    cout << "Enter first number: ";
    cin >> x;
-   cour << "Enter second number: ";
+   cout << "Enter second number: ";
    cin >> y;
-   cout<<"GCD of "<< x <<" and "<< y <<" is "<< (y, x % y); 
+   if(x<y){m=x;}
+   else{m=y;}
+   while(m!=0){
+       if(x%m==0 && y%m==0){
+           break;
+        }
+        else{m-=1;}
+   }
+   cout<<m;
    return 0; 
-}   
+}
