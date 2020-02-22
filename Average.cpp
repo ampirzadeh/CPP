@@ -5,16 +5,17 @@ using namespace std;
 int main()
 {
     int num;
-    int input, sum=0, avg;
+    int input, sum = 0, avg;
     cout << "How many numbers? : ";
-    cin >> num; 
-    for(int i = 1; i <= num; i++){
+    cin >> num;
+    for (int i = 1; i <= num; i++)
+    {
         cout << "Enter Number: ";
         cin >> input;
         sum += input;
     }
     avg = sum / num;
     cout << "Average is " << avg << endl;
-    
+
     return 0;
 }
