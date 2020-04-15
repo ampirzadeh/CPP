@@ -40,26 +40,24 @@ int main()
     {
         cout << "error." << endl;
     }
+    cout << "ASCII code of " << letter << " is " << (int)letter << ". " << letter << " is the " << n;
     switch (n)
     {
     case 1:
-        cout << "ASCII code of " << letter << " is " << (int)letter << ". " << letter << " is the " << n << "st letter and " << n << " in binarry would be: ";
-        decToBinary(n);
+        cout << "st";
         break;
-
     case 2:
-        cout << "ASCII code of " << letter << " is " << (int)letter << ". " << letter << " is the " << n << "nd letter and " << n << " in binarry would be: ";
-        decToBinary(n);
+        cout << "nd";
         break;
 
     case 3:
-        cout << "ASCII code of " << letter << " is " << (int)letter << ". " << letter << " is the " << n << "rd letter and " << n << " in binarry would be: ";
-        decToBinary(n);
+        cout << "rd";
         break;
 
     default:
-        cout << "ASCII code of " << letter << " is " << (int)letter << ". " << letter << " is the " << n << "th letter and " << n << " in binarry would be: ";
-        decToBinary(n);
+        cout << "th";
         break;
     }
+    cout << " letter and in binarry would be: ";
+    decToBinary(n);
 }
